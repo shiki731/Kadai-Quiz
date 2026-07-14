@@ -57,19 +57,19 @@ public class ButtonSystem : MonoBehaviour
             case Mode.Question:
                 if(QuestPattern == 1)
                 {
-                    mondai.text = "–â‘è‚P";
+                    mondai.text = "–â‘è‚P:1ŽžŠÔ‚Í100•ª‚Å‚ ‚é";
                 }
                 else if (QuestPattern == 2)
                 {
-                    mondai.text = "–â‘è‚Q";
+                    mondai.text = "–â‘è‚Q:1dl‚Í100ml‚Å‚ ‚é";
                 }
                 else if (QuestPattern == 3)
                 {
-                    mondai.text = "–â‘è‚R";
+                    mondai.text = "–â‘è‚R:1t‚Í100kg‚Å‚ ‚é";
                 }
                 else if (QuestPattern == 4)
                 {
-                    mondai.text = "–â‘è‚S";
+                    mondai.text = "–â‘è‚S:1m‚Í100cm‚Å‚ ‚é";
                 }
                 Main = Mode.WaitAnswer;
                 break;
